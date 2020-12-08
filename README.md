@@ -2,10 +2,10 @@
 learn from https://tangshusen.me/Dive-into-DL-PyTorch/#/chapter03_DL-basics/3.3_linear-regression-pytorch.  
 learn 3 ---> chapter03_DL-basics/3.2_linear-regression-scratch  
 learn 4 --->3.3_linear-regression-pytorch  
+learn 5 --->3.4_softmax-regression  
   
   
-  
-  
+result:  
 C:\Users\lenovo\Anaconda3\envs\mypytorch\python.exe "C:/Users/lenovo/Desktop/courses/mnist_code/learn 4.py"  
 LinearNet(  
   (linear): Linear(in_features=2, out_features=1, bias=True)  
