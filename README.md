@@ -3,7 +3,8 @@ learn from https://tangshusen.me/Dive-into-DL-PyTorch/#/chapter03_DL-basics/3.3_
 learn 3 ---> chapter03_DL-basics/3.2_linear-regression-scratch  
 learn 4 --->3.3_linear-regression-pytorch  
 learn 5 --->3.4_softmax-regression  
-  
+learn 6 --->3.5_fashion-mnist  
+learn 7 --->3.6_softmax-regression-scratch  
   
 result:  
 C:\Users\lenovo\Anaconda3\envs\mypytorch\python.exe "C:/Users/lenovo/Desktop/courses/mnist_code/learn 4.py"  
