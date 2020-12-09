@@ -6,6 +6,12 @@ learn 5 --->3.4_softmax-regression
 learn 6 --->3.5_fashion-mnist  
 learn 7 --->3.6_softmax-regression-scratch  
   
+  
+  
+  
+  
+3.6节 gather函数释义:https://blog.csdn.net/hawkcici160/article/details/80771044  
+  
 result:  
 C:\Users\lenovo\Anaconda3\envs\mypytorch\python.exe "C:/Users/lenovo/Desktop/courses/mnist_code/learn 4.py"  
 LinearNet(  
@@ -26,3 +32,11 @@ epoch 3/3 loss 0.000
 tensor([[2.3999, 3.0002]], requires_grad=True)  
 5.3 Parameter containing:  
 tensor([5.3001], requires_grad=True)  
+
+C:\Users\lenovo\Anaconda3\envs\mypytorch\python.exe "C:/Users/lenovo/Desktop/courses/mnist_code/learn 6.py"  
+epoch 1/5 loss: 0.564 acc: 0.823 test_acc:0.795  
+epoch 2/5 loss: 0.619 acc: 0.802 test_acc:0.808  
+epoch 3/5 loss: 0.491 acc: 0.812 test_acc:0.820  
+epoch 4/5 loss: 0.465 acc: 0.823 test_acc:0.818  
+epoch 5/5 loss: 0.430 acc: 0.875 test_acc:0.822  
+  
