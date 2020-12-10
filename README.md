@@ -33,10 +33,9 @@ tensor([[2.3999, 3.0002]], requires_grad=True)
 5.3 Parameter containing:  
 tensor([5.3001], requires_grad=True)  
 
-C:\Users\lenovo\Anaconda3\envs\mypytorch\python.exe "C:/Users/lenovo/Desktop/courses/mnist_code/learn 6.py"  
-epoch 1/5 loss: 0.564 acc: 0.823 test_acc:0.795  
-epoch 2/5 loss: 0.619 acc: 0.802 test_acc:0.808  
-epoch 3/5 loss: 0.491 acc: 0.812 test_acc:0.820  
-epoch 4/5 loss: 0.465 acc: 0.823 test_acc:0.818  
-epoch 5/5 loss: 0.430 acc: 0.875 test_acc:0.822  
-  
+C:\Users\lenovo\Anaconda3\envs\mypytorch\python.exe "C:/Users/lenovo/Desktop/courses/mnist_code/learn 6.py"
+epoch 1/5 loss: 0.735 acc: 0.729 test_acc:0.791
+epoch 2/5 loss: 0.831 acc: 0.740 test_acc:0.810
+epoch 3/5 loss: 0.494 acc: 0.854 test_acc:0.820
+epoch 4/5 loss: 0.485 acc: 0.792 test_acc:0.822
+epoch 5/5 loss: 0.488 acc: 0.823 test_acc:0.829
