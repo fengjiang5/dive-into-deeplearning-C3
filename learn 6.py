@@ -1,9 +1,11 @@
 import torch
 import torchvision
 import numpy as np
+from IPython import display
+import matplotlib.pyplot as plt
 import sys
-sys.path.append('..')
-import d2lzh_pytorch as d2l
+# sys.path.append('..')
+# import d2lzh_pytorch as d2l
 
 
 params = {}
@@ -14,6 +16,7 @@ params['num_epochs'] = 5
 params['lr'] = 0.1
 
 
+# 以下函数用于代替原代码中 d2l.load_data_fashion_mnist()
 def load_data_fashion_mnist(batch_size, resize=None, root=r'E:\Fashion-MNIST'):
     """Download the fashion mnist dataset and then load into memory."""
     trans = []
@@ -111,3 +114,29 @@ def train_ch3(net, train_iter, test_iter, loss, num_epochs, batch_size,
 
 train_ch3(net, train_iter, test_iter, cross_entropy, num_epochs=params['num_epochs'],
           batch_size=params['batch_size'], params=[w, b], lr=params['lr'])
+
+
+def get_fashion_mnist_labels(labels):
+    text_labels = ['t-shirt', 'trouser', 'pullover', 'dress', 'coat',
+                   'sandal', 'shirt', 'sneaker', 'bag', 'ankle boot']
+    return [text_labels[int(j)] for j in labels]
+
+
+def show_fashion_mnist(images, labels):
+    # d2l.use_svg_display()
+    display.set_matplotlib_formats('svg')  # 原文为: d2l.use_svg_display(),但由于安装d2l包的原因无法运行。
+    _, figs = plt.subplots(1, len(images), figsize=(12, 12))  # 因此查阅原代码后修改为次语句
+    for f, img, lbl in zip(figs, images, labels):
+        f.imshow(img.view((28, 28)).numpy())
+        f.set_title(lbl)
+        f.axes.get_xaxis().set_visible(False)
+        f.axes.get_yaxis().set_visible(False)
+    plt.show()
+
+
+x, y = iter(test_iter).next()
+true_labels = get_fashion_mnist_labels(y.numpy())
+pred_labels = get_fashion_mnist_labels(net(x).argmax(dim=1).numpy())
+title = [true + '\n' + pred for true, pred in zip(true_labels, pred_labels)]
+
+show_fashion_mnist(x[0:9], title[0:9])
