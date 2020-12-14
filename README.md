@@ -1,11 +1,12 @@
 # dive-into-deeplearning-C3
 learn from https://tangshusen.me/Dive-into-DL-PyTorch/#/chapter03_DL-basics/3.3_linear-regression-pytorch.  
+  
 learn 3 ---> chapter03_DL-basics/3.2_linear-regression-scratch  
 learn 4 --->3.3_linear-regression-pytorch  
 learn 5 --->3.4_softmax-regression  
 learn 6 --->3.5_fashion-mnist  
 learn 7 --->3.6_softmax-regression-scratch  
-  
+learn 9 --->3.11_underfit-overfit  
   
   
   
