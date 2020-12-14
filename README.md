@@ -43,3 +43,4 @@ epoch 5/5 loss: 0.488 acc: 0.823 test_acc:0.829
 
 
 the result(figures) of learn 9.py
+![正常情况下](https://github.com/fengjiang5/dive-into-deeplearning-C3/blob/main/regular.png)
