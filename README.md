@@ -40,3 +40,6 @@ epoch 2/5 loss: 0.831 acc: 0.740 test_acc:0.810
 epoch 3/5 loss: 0.494 acc: 0.854 test_acc:0.820  
 epoch 4/5 loss: 0.485 acc: 0.792 test_acc:0.822  
 epoch 5/5 loss: 0.488 acc: 0.823 test_acc:0.829  
+
+
+the result(figures) of learn 9.py
