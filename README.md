@@ -42,5 +42,8 @@ epoch 4/5 loss: 0.485 acc: 0.792 test_acc:0.822
 epoch 5/5 loss: 0.488 acc: 0.823 test_acc:0.829  
 
 
-the result(figures) of learn 9.py
-![正常情况下](https://github.com/fengjiang5/dive-into-deeplearning-C3/blob/main/regular.png)
+the result(figures) of learn 9.py  
+![正常情况下](https://github.com/fengjiang5/dive-into-deeplearning-C3/blob/main/regular.png)  
+![欠拟合(二次多项式逼近)](https://github.com/fengjiang5/dive-into-deeplearning-C3/blob/main/underfit2.png)
+![欠拟合(线性逼近)](https://github.com/fengjiang5/dive-into-deeplearning-C3/blob/main/ubderfit1.png)
+![过拟合](https://github.com/fengjiang5/dive-into-deeplearning-C3/blob/main/overfit.png)
